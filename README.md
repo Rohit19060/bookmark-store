@@ -1,6 +1,6 @@
 <h1 align="center">Bookmark Store</h1>
 
-## <p align="center">App for storing bookmarks temporary, it is utilizing thinkful list API</p>
+<p align="center">App for storing bookmarks temporary, it is utilizing thinkful list API</p>
 
 ## Links
 
