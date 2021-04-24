@@ -12,8 +12,6 @@
 
 - [API](https://thinkful-list-api.herokuapp.com/rohit/bookmarks "API")
 
----
-
 ## Screenshots
 
 ![Home Page](/screenshots/1.png "Home Page")
