@@ -101,20 +101,19 @@ In the project directory using terminal, you can run:
 npm start
 ```
 
-- This command will execute `webpack serve --open chrome`. This app is developed with Webpack so, It will launch the app using the Webpack server. Because the `open chrome` option passed with the command, it will also open the app in chrome. Runs the app in the serving mode. Open [http://localhost:3000](http://localhost:3000) to view it in any browser.
+This command will execute `webpack serve --open chrome`. This app is developed with Webpack so, It will launch the app using the Webpack server. Because the `open chrome` option passed with the command, it will also open the app in chrome. Runs the app in the serving mode. Open [http://localhost:3000](http://localhost:3000) to view it in any browser.
 
 ```Bash
 npm run build
 ```
 
-- This command will execute `webpack`. Builds the app for production to the `docs` folder.
-  It correctly bundles all the files and assets in production mode and optimizes the build for the best performance. You can use any server to serve the app in production mode.
+This command will execute `webpack`. Builds the app for production to the `docs` folder. It correctly bundles all the files and assets in production mode and optimizes the build for the best performance. You can use any server to serve the app in production mode.
 
 ```Bash
 npm run dev
 ```
 
-- This command will execute `webpack --watch`. It is Webpack watch mode where the app gets compiled automatically whenever you make a change in the src files. You can use any server to serve the files. With the help of `Live Server` you can make your development process very fast.
+This command will execute `webpack --watch`. It is Webpack watch mode where the app gets compiled automatically whenever you make a change in the src files. You can use any server to serve the files. With the help of `Live Server` you can make your development process very fast.
 
 ## 👷 Built with
 
