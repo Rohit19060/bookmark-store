@@ -139,7 +139,7 @@ This command will execute `webpack --watch`. It is Webpack watch mode where the 
 
 > [`./scr/**.js`](https://github.com/Rohit19060/bookmark-store/tree/main/src "Src Directory"): All the script files(Modular approach)
 
-> [`./src/style.css`](https://github.com/Rohit19060/bookmark-store/blob/main/src/style.css "Styles"): Main Style file, Contain all the styles of the app
+> [`./src/styles.css`]https://github.com/Rohit19060/bookmark-store/blob/main/src/styles.css "Styles"): Main Style file, Contain all the styles of the app
 
 > [`./docs/**.**`](https://github.com/Rohit19060/bookmark-store/tree/main/docs "Production"): Production Directory
 
