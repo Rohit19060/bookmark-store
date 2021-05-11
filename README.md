@@ -1,36 +1,36 @@
 <p align="center">
-  <a href="https://github.com/Rohit19060/bookmark-store" title="Bookmark Store">
-    <img src="https://kingtechnologies.in/assets/images/logo.png" width="80px" alt="Bookmark Store" />
+  <a href="https://rohit19060.github.io/bookmark-store/" title="Bookmark Store">
+    <img src="https://kingtechnologies.in/assets/images/logo.png" width="80px" alt="Bookmark Store"/>
   </a>
 </p>
 <h1 align="center">🌟 Bookmark Store 🌟</h1>
 <p align="center">App for storing Bookmarks, it is utilizing thinkful list API</p>
 
 <p align="center">
-<a href="https://github.com/Rohit19060/bookmark-store/blob/master/LICENSE" target="_blank" title="License">
-<img src="https://img.shields.io/github/license/Rohit19060/bookmark-store?label=License&logo=Github&style=flat-square" alt="Bookmark Store License" />
+<a href="https://github.com/Rohit19060/bookmark-store/blob/master/LICENSE" title="License">
+<img src="https://img.shields.io/github/license/Rohit19060/bookmark-store?label=License&logo=Github&style=flat-square" alt="Bookmark Store License"/>
 </a>
-<a href="https://github.com/Rohit19060/bookmark-store/fork" target="_blank" title="Forks">
+<a href="https://github.com/Rohit19060/bookmark-store/fork" title="Forks">
 <img src="https://img.shields.io/github/forks/Rohit19060/bookmark-store?label=Forks&logo=Github&style=flat-square" alt="Bookmark Store Forks"/>
 </a>
-<a href="https://github.com/Rohit19060/bookmark-store/stargazers" target="_blank" title="Stars">
+<a href="https://github.com/Rohit19060/bookmark-store/stargazers" title="Stars">
 <img src="https://img.shields.io/github/stars/Rohit19060/bookmark-store?label=Stars&logo=Github&style=flat-square" alt="Bookmark Store Stars"/>
 </a>
-<a href="https://github.com/Rohit19060/bookmark-store/issues" target="_blank" title="Issues">
+<a href="https://github.com/Rohit19060/bookmark-store/issues" title="Issues">
 <img src="https://img.shields.io/github/issues/Rohit19060/bookmark-store?label=Issues&logo=Github&style=flat-square" alt="Bookmark Store Issues"/>
 </a>
-<a href="https://github.com/Rohit19060/bookmark-store/pulls" target="_blank" title="Pull Requests">
+<a href="https://github.com/Rohit19060/bookmark-store/pulls" title="Pull Requests">
 <img src="https://img.shields.io/github/issues-pr/Rohit19060/bookmark-store?label=Pull%20Requests&logo=Github&style=flat-square" alt="Bookmark Store Pull Requests"/>
 </a>
-<a href="https://github.com/Rohit19060/bookmark-store" target="_blank" title="Repo Size">
+<a href="https://github.com/Rohit19060/bookmark-store" title="Repo Size">
 <img src="https://img.shields.io/github/repo-size/Rohit19060/bookmark-store?label=Repo%20Size&logo=Github&style=flat-square" alt="Bookmark Store Repo Size"/>
 </a>
-<a href="https://discord.gg/2wpHNSjwm2" target="_blank" title="Join Community">
+<a href="https://discord.gg/2wpHNSjwm2" title="Join King Tech's Community">
 <img src="https://img.shields.io/discord/737854816402800690?color=%236d82cb&label=Join%20Community&logo=discord&logoColor=%23FFFFFF&style=flat-square" alt="Join discord community for Bookmark Store"/>
 </a>
 </p>
 
-<p align="center" title="Bookmark Store gif"><img src="./assets/images/main.gif" alt="Bookmark Store gif" /></p>
+<p align="center" title="Bookmark Store"><img src="./assets/images/main.gif" alt="Bookmark Store"/></p>
 
 <h2 align="center">🌐 Links 🌐</h2>
 <p align="center">
@@ -63,7 +63,11 @@
 
 - Basic Understanding of JavaScript
 
-- Basic Understanding of Webpack
+- Basic Understanding of [webpack](https://webpack.js.org/ "webpack")
+
+- Basic Understanding of [Node](https://nodejs.org/ "Node")
+
+- Basic Understanding of [NPM](https://www.npmjs.com/ "NPM")
 
 ## 🛠️ Installation Steps
 
@@ -131,13 +135,13 @@ This command will execute `webpack --watch`. It is Webpack watch mode where the 
 
 ## 📂 Directory Structure
 
-- `./src/index.html`: Main entry file
+> [`./src/index.html`](https://github.com/Rohit19060/bookmark-store/blob/main/src/index.html "Bookmark Store"): Main entry file
 
-- `./scr/**.js`: All the script files(Modular approach)
+> [`./scr/**.js`](https://github.com/Rohit19060/bookmark-store/tree/main/src "Src Directory"): All the script files(Modular approach)
 
-- `./src/style.css`: Main Style file, Contain all the styles of the app
+> [`./src/style.css`](https://github.com/Rohit19060/bookmark-store/blob/main/src/style.css "Styles"): Main Style file, Contain all the styles of the app
 
-- `./docs/**.**`: Production Directory
+> [`./docs/**.**`](https://github.com/Rohit19060/bookmark-store/tree/main/docs "Production"): Production Directory
 
 ## 🎊 Future Updates
 
@@ -147,7 +151,7 @@ This command will execute `webpack --watch`. It is Webpack watch mode where the 
 
 **Rohit Jain**
 
-- 🌌 [Profile](https://github.com/rohit19060 "Rohit Jain")
+- 🌌 [Profile](https://github.com/Rohit19060 "Rohit Jain")
 
 - 🏮 [Email](mailto:rohitjain19060@gmail.com?subject=Hi%20from%20Bookmark%20Store "Hi!")
 
@@ -155,14 +159,14 @@ This command will execute `webpack --watch`. It is Webpack watch mode where the 
 
 <h2 align="center">🤝 Support</h2>
 
-<h3 align="center">🎀 Contributions (<a href="https://guides.github.com/introduction/flow">GitHub flow</a>), 🔥 issues and 🥮 feature requests are most welcome!</h3>
+<h3 align="center">🎀 Contributions (<a href="https://guides.github.com/introduction/flow" title="GitHub flow">GitHub flow</a>), 🔥 issues, and 🥮 feature requests are most welcome!</h3>
 
 <h3 align="center">💙 If you like this project, Give it a ⭐ and Share it with friends!</h3>
 <h3 align="center">💰 Donations Links</h3>
 <p align="center">
-<a href="https://www.paypal.me/kingrohitJ" target="_blank" title="PayPal"><img src="https://kingtechnologies.in/assets/images/paypal.png" alt="PayPal"/>
-<a href="https://www.buymeacoffee.com/rohitjain" target="Buy me a Coffee/" title="Buy me a Coffee"><img src="https://kingtechnologies.in/assets/images/coffee.png" alt="Buy me a Coffee"/>
-<a href="https://ko-fi.com/rohitjain" target="_blank" title="Ko-fi"><img src="https://kingtechnologies.in/assets/images/kofi.png" alt="Ko-fi"/></a>
+<a href="https://www.paypal.me/kingrohitJ" title="PayPal"><img src="https://kingtechnologies.in/assets/images/paypal.png" alt="PayPal"/></a>
+<a href="https://www.buymeacoffee.com/rohitjain" title="Buy me a Coffee"><img src="https://kingtechnologies.in/assets/images/coffee.png" alt="Buy me a Coffee"/></a>
+<a href="https://ko-fi.com/rohitjain" title="Ko-fi"><img src="https://kingtechnologies.in/assets/images/kofi.png" alt="Ko-fi"/></a>
 </p>
 
 <p align="center">Made with JavaScript & ❤️ in India</p>
