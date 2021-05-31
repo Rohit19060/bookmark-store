@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://rohit19060.github.io/bookmark-store/" title="Bookmark Store">
-    <img src="https://kingtechnologies.in/assets/images/logo.png" width="80px" alt="Bookmark Store"/>
+    <img src="https://kingtechnologies.in/assets/images/Logo.webp" width="80px" alt="Bookmark Store"/>
   </a>
 </p>
 <h1 align="center">🌟 Bookmark Store 🌟</h1>
@@ -164,9 +164,9 @@ This command will execute `webpack --watch`. It is Webpack watch mode where the 
 <h3 align="center">💙 If you like this project, Give it a ⭐ and Share it with friends!</h3>
 <h3 align="center">💰 Donations Links</h3>
 <p align="center">
-<a href="https://www.paypal.me/kingrohitJ" title="PayPal"><img src="https://kingtechnologies.in/assets/images/paypal.png" alt="PayPal"/></a>
-<a href="https://www.buymeacoffee.com/rohitjain" title="Buy me a Coffee"><img src="https://kingtechnologies.in/assets/images/coffee.png" alt="Buy me a Coffee"/></a>
-<a href="https://ko-fi.com/rohitjain" title="Ko-fi"><img src="https://kingtechnologies.in/assets/images/kofi.png" alt="Ko-fi"/></a>
+<a href="https://www.paypal.me/kingrohitJ" title="PayPal"><img src="https://kingtechnologies.in/assets/images/Paypal.png" alt="PayPal"/></a>
+<a href="https://www.buymeacoffee.com/rohitjain" title="Buy me a Coffee"><img src="https://kingtechnologies.in/assets/images/Coffee.png" alt="Buy me a Coffee"/></a>
+<a href="https://ko-fi.com/rohitjain" title="Ko-fi"><img src="https://kingtechnologies.in/assets/images/Kofi.png" alt="Ko-fi"/></a>
 </p>
 
 <p align="center">Made with JavaScript & ❤️ in India</p>
