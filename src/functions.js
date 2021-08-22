@@ -1,7 +1,7 @@
 import $ from "jquery";
 import api from "./api";
-import "./styles.css";
 import store from "./store";
+import "./styles.css";
 import templates from "./templates";
 
 const removeBookmark = (id) => {
@@ -17,7 +17,7 @@ const addEvents = () => {
   $("main").off();
   if (store.adding) {
     $("#cancel").on("click", () => {
-      store.stopPadding();
+      store.stopAdding();
       render();
     });
     $("#addBookmark").on("submit", (evt) => {
@@ -26,7 +26,7 @@ const addEvents = () => {
     });
   } else if (store.error != null) {
     $("#back").on("click", () => {
-      store.stopPadding();
+      store.stopAdding();
       render();
     });
   } else {
@@ -54,7 +54,7 @@ const addBookMarkToApi = () => {
   };
 
   api.addBookmark(send).then(() => {
-    store.stopPadding();
+    store.stopAdding();
     api.getAllBookmarks().then((res) => {
       store.updateBookmark(res);
       render();

@@ -4,6 +4,7 @@ let error = null;
 let filter = 0;
 
 function status() {
+  console.log(this.adding)
   if (this.adding) {
     return "Adding";
   } else if (this.error != null) {
@@ -24,13 +25,13 @@ function addForm() {
   this.adding = true;
 }
 
-function stopPadding() {
+function stopAdding() {
   this.adding = false;
 }
 
 export default {
   status,
-  stopPadding,
+  stopAdding,
   updateBookmark,
   bookmarks,
   addForm,
