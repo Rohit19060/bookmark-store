@@ -1,5 +1,5 @@
-import star from "./assets/star.svg";
 import $ from "jquery";
+import star from "./assets/star.svg";
 import functions from "./functions";
 import store from "./store";
 

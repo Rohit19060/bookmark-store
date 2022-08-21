@@ -9,9 +9,11 @@ module.exports = {
   },
   devtool: "inline-source-map",
   devServer: {
-    inline: true,
     port: 3000,
-    contentBase: "./docs",
+    compress: true,
+    static: {
+      directory: path.join(__dirname, "docs")
+    },
   },
   plugins: [
     new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
