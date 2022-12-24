@@ -1,62 +1,15 @@
 {
   "name": "bookmark-store",
-  "version": "1.0.0",
-  "description": "App for storing bookmarks temporary by utilizing thinkful list API",
-  "author": {
-    "name": "Rohit Jain",
-    "email": "rohitjain19060@gmail.com",
-    "url": "https://kingtechnologies.dev/"
-  },
-  "contributors": [],
-  "main": "src/app.js",
-  "homepage": "https://rohit19060.github.io/bookmark-store/",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "webpack serve --open",
-    "build": "webpack",
-    "dev": "webpack --watch"
+    "dev": "vite --host --open --port 3000 --mode development ",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host --open"
   },
   "devDependencies": {
-    "clean-webpack-plugin": "^4.0.0-alpha.0",
-    "css-loader": "^6.7.1",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.5.0",
-    "jquery": "^3.6.0",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.10.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Rohit19060/bookmark-store"
-  },
-  "bugs": {
-    "url": "https://github.com/Rohit19060/bookmark-store/issues"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "engines": {
-    "node": ">= 15.7.0",
-    "npm": ">= 7.0.0",
-    "yarn": "^1.22.0"
-  },
-  "keywords": [
-    "bookmarks store",
-    "store",
-    "bookmarks",
-    "react",
-    "node"
-  ],
-  "license": "MIT"
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
 }
