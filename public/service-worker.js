@@ -1,10 +1,4 @@
-const HOSTNAME_WHITELIST = [
-  self.location.hostname,
-  "./*.js",
-  "./*.css",
-  "./*.png",
-  "./*.svg",
-];
+const HOSTNAME_WHITELIST = ["/", "./*.js", "./*.css", "./*.png", "./*.svg"];
 const getFixedUrl = (req) => {
   var now = Date.now();
   var url = new URL(req.url);
