@@ -1,0 +1,25 @@
+{
+  "short_name": "BookMark Store",
+  "name": "BookMark Store: Store your bookmarks easily",
+  "icons": [
+    {
+      "src": "/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "features": ["Cross Platform", "fast", "simple"],
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "background_color": "#00aeeb",
+  "display": "minimal-ui",
+  "scope": "/",
+  "theme_color": "#00aeeb",
+  "shortcuts": [],
+  "description": "Store your bookmarks easily"
+}
