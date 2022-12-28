@@ -24,7 +24,7 @@ jobs:
     - run: npm ci
     - run: npm i -g pnpm
     - run: pnpm i
-    - run: pnpm build --if-present
+    - run: pnpm build
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4.4.1
       with:
