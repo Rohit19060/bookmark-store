@@ -124,8 +124,10 @@ const bookmark = (bookmark: BookMark) => {
   let removeButton = document.createElement("button");
   removeButton.innerText = "Remove";
   removeButton.addEventListener("click", () => {
-    deleteBookmark(bookmark.id);
-    render();
+    if (confirm("Are you sure, you want to delete this bookmark")) {
+      deleteBookmark(bookmark.id);
+      render();
+    }
   });
   hiddenView.appendChild(link);
   hiddenView.appendChild(removeButton);
