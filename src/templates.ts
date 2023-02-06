@@ -86,7 +86,6 @@ const addBookmarkForm = () => {
   document.querySelector("main")!.appendChild(form);
 };
 
-
 const bookmark = (bookmark: BookMark) => {
   let div = document.createElement("section");
   div.classList.add("bookmark");
@@ -134,7 +133,7 @@ const bookmark = (bookmark: BookMark) => {
   hidden.appendChild(desc);
   hidden.appendChild(hiddenView);
   div.appendChild(hidden);
-  mainView.addEventListener("click", () => {
+  div.addEventListener("click", () => {
     toggle(bookmark.id);
   });
   document.querySelector("main")!.appendChild(div);
@@ -189,11 +188,6 @@ const showBookmarks = () => {
       bookmark(element);
     });
   }
-
 };
 
-export {
-  showBookmarks,
-  addBookmarkForm,
-};
-
+export { showBookmarks, addBookmarkForm };
