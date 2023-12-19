@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js 21
+      - name: Use Node current Version
         uses: actions/setup-node@v3
         with:
           node-version: "current"
