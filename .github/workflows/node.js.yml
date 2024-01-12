@@ -19,7 +19,6 @@ jobs:
         with:
           node-version: "current"
           cache: "npm"
-      - run: npm ci
       - run: npm i -g pnpm
       - run: pnpm i
       - run: pnpm build
